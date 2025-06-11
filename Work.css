@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(242, 202, 153);
+}
+#box{
+    height: 525px;
+    width: 525px;
+    background-color: aliceblue;
+    position: fixed;
+    display: flex;
+    margin : 10%;
+    flex-direction: column;
+    align-items: end;
+}
+#follow{
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    margin-top: 78.3%;
+    margin-left: 10%;
+    display: inline-block;
+    margin-right: 300px;
+    border-radius: 15px;
+
+}
+#Message{
+    display: inline-block;
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    margin-top: 72%;
+    margin-right: 300px;
+    border-radius: 15px;
+    
+}
+.dabba{
+    height: 175px;
+    width: 175px;
+    background-color:rgb(234, 212, 195);
+    border: 2px solid rgb(250, 250, 250);
+    color: rgb(169, 117, 40);
+}
+#dp{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-image: url(logo\ AS.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 260px;
+    margin-top: 60px;
+}
+#name {
+    position: absolute;
+    margin-right: 290px;
+    margin-top: 46%;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(167, 118, 59);
+    text-shadow: black;
+}
